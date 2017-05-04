@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('startUpAfsApp')
+angular.module('startUpApp')
   .config(function($stateProvider) {
     $stateProvider.state('main', {
       url: '/',

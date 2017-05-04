@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('startUpAfsApp')
+angular.module('startUpApp')
   .directive('navbar', () => ({
     templateUrl: 'components/navbar/navbar.html',
     restrict: 'E',

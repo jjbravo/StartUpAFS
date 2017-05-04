@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('startUpAfsApp')
+angular.module('startUpApp')
   .directive('footer', function() {
     return {
       templateUrl: 'components/footer/footer.html',

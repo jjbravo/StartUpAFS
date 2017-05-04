@@ -1,5 +1,5 @@
 (function(angular, undefined) {
-  angular.module("startUpAfsApp.constants", [])
+  angular.module("startUpApp.constants", [])
 
 .constant("appConfig", {
 	"userRoles": [

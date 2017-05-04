@@ -3,7 +3,7 @@
 describe('Component: mainComponent', function() {
 
   // load the controller's module
-  beforeEach(module('startUpAfsApp'));
+  beforeEach(module('startUpApp'));
   beforeEach(module('stateMock'));
 
   var scope;
@@ -28,7 +28,6 @@ describe('Component: mainComponent', function() {
   it('should attach a list of things to the controller', function() {
     mainComponent.$onInit();
     $httpBackend.flush();
-    expect(mainComponent.awesomeThings.length)
-      .to.equal(4);
+    mainComponent.awesomeThings.length.should.equal(4);
   });
 });

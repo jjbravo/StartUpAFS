@@ -13,5 +13,5 @@ class NavbarController {
 
 }
 
-angular.module('startUpAfsApp')
+angular.module('startUpApp')
   .controller('NavbarController', NavbarController);

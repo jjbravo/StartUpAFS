@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('startUpAfsApp.util', []);
+angular.module('startUpApp.util', []);

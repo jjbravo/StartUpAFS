@@ -65,6 +65,6 @@
     return Util;
   }
 
-  angular.module('startUpAfsApp.util')
+  angular.module('startUpApp.util')
     .factory('Util', UtilService);
 })();

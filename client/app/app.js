@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('startUpAfsApp', ['startUpAfsApp.constants', 'ngCookies', 'ngResource', 'ngSanitize',
-    'ui.router'
+angular.module('startUpApp', ['startUpApp.constants', 'ngCookies', 'ngResource', 'ngSanitize',
+    'ui.router', 'ui.bootstrap'
   ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
