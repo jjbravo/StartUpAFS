@@ -1,5 +1,6 @@
 'use strict';
 
+
 angular.module('startUpApp', [
 	'startUpApp.constants', 
 	'ngCookies', 
@@ -21,6 +22,7 @@ angular.module('startUpApp', [
   $authProvider.tokenPrefix = 'startUpApp';
 
 })
+
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
 
