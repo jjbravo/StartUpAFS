@@ -10,10 +10,7 @@
     }
 
     $onInit() {
-      this.$http.get('/api/things')
-        .then(response => {
-          this.awesomeThings = response.data;
-        });
+      
     }
   }
 
